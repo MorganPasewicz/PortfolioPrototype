@@ -1,0 +1,218 @@
+/*
+COLOR PALETTE
+https://coolors.co/d8dbe2-a9bcd0-58a4b0-373f51-1b1b1e
+#D8DBE2
+- light blue
+#A9BCD0
+-powder blue
+#58A4B0
+- moonstone
+#373F51 
+- charcoal
+#1B1B1E
+- black
+*/
+
+
+/* Global styles
+------------------------------------*/
+
+ 
+
+
+html {
+  box-sizing: border-box;
+  text-align: center;
+}
+nav {
+  list-style:none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 100;
+
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+header h1 {
+  color: #373F51 ;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #373F51 
+  ;
+}
+header h2 {
+  color: #000000 
+  ;
+  -webkit-text-fill-color: rgb(0, 0, 0); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000 
+  ;
+}
+footer h2 {
+  color: #FF3EFD 
+  ;
+  align-content: center;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #373F51 
+  ;
+}
+
+ h1 {
+  color: #373F51 
+  ;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #373F51 
+  ;
+}
+
+body {
+  color: #1B1B1E;
+  margin: 0;
+  padding: 0;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  font-size: 15px;
+  line-height: 1.5;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+a {
+  color: ##1B1B1E;
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  font-size: 100px;
+  line-height: 1;
+}
+h2 {
+  font-size: 45px;
+}
+h1, h2 {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  font-weight: 400;
+  margin: 0;
+}
+h2 {
+  color: #FF3EFD;
+  text-size-adjust: 1000px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: 100;}
+
+
+/* Profile*/
+header {
+  background: #58A4B0;
+  color: #ffffff
+  ;
+}
+
+
+/* Projects*/
+section .projects
+.projects {
+  background: #D8DBE2
+  ;
+}
+
+.projects a {
+  color: #1B1B1E
+  ;
+}
+.projects .btn {
+  color: #F7FFF7;
+  background: #2F3061;
+  text-decoration: none;
+  padding: 14px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.projects .btn:hover {
+  background:#D8DBE2;
+}
+.project-item {
+  overflow: hidden;
+}
+.project-item h3 {
+  margin-top: 0;
+}
+
+
+/*Experience*/
+.work-experience {
+}
+
+
+
+/* Education*/
+ 
+ .education {
+  background-size: cover;
+  background-position: top right;
+  padding-bottom: 100px;
+  align-self: center;
+  /* display: inline-block; */
+ }
+
+.education section  {
+  width: 60%;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+}
+
+/* Contact*/
+footer {
+ color: #FF3EFD;
+  align-content: center;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  background-color: #FF3EFD;
+ 
+}
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+}
+
+
+/* Responsive*/
+  header, footer ul, footer h2{
+    text-align: center;
+    color: #FF3EFD;
+  }
+  .project-item img {
+    float: left;
+    margin-right: 20px;
+  }
+
+  .job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 30px;
+  }
+  .contact-list {
+    display: flex;
+    justify-content: center;
+  }
+ link {
+    color: #FF3EFD;
+  }
+
+
